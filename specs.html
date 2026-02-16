@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Dimensity 9500 – Full Specifications</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body class="theme-dark">
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo-mark"></span>
+      <span class="logo-text">Dimensity 9500</span>
+    </div>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html#hero">Overview</a></li>
+        <li><a href="specs.html" class="active">Specs</a></li>
+        <li><a href="ai-engine.html">AI Platform</a></li>
+        <li><a href="contact.html">Partners</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Open navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="section hero-subpage">
+      <div class="section-inner hero-subpage-inner">
+        <div class="hero-subpage-copy" data-animate="fade-up">
+          <p class="eyebrow">Specifications</p>
+          <h1>Dimensity 9500 – Technical details</h1>
+          <p>
+            High‑level specifications for the Dimensity 9500 platform. For
+            full documentation and reference designs, contact our partner team.
+          </p>
+        </div>
+        <div class="hero-subpage-visual" data-animate="fade-left">
+          <canvas id="chipCanvas2"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contrast">
+      <div class="section-inner">
+        <h2 data-animate="fade-up">Core architecture</h2>
+        <div class="specs-grid">
+          <div class="specs-block" data-animate="fade-up">
+            <h3>CPU</h3>
+            <ul>
+              <li>Process: 3nm class</li>
+              <li>Prime core: up to 3.5 GHz</li>
+              <li>Performance cores: 5× high‑performance</li>
+              <li>Efficiency cores: 2× ultra‑efficient</li>
+              <li>Large shared L3 cache</li>
+            </ul>
+          </div>
+          <div class="specs-block" data-animate="fade-up" data-animate-delay="100">
+            <h3>GPU</h3>
+            <ul>
+              <li>Next‑gen GPU architecture</li>
+              <li>Hardware ray tracing</li>
+              <li>Variable rate shading</li>
+              <li>Display up to 4K / 120 Hz*</li>
+            </ul>
+          </div>
+          <div class="specs-block" data-animate="fade-up" data-animate-delay="200">
+            <h3>Memory &amp; Storage</h3>
+            <ul>
+              <li>LPDDR5X up to 9600 Mbps</li>
+              <li>UFS 4.0 with HS‑Gear 5</li>
+              <li>Advanced prefetch &amp; compression</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2 data-animate="fade-up">AI, camera, and connectivity</h2>
+        <div class="specs-grid">
+          <div class="specs-block" data-animate="fade-up">
+            <h3>AI Engine</h3>
+            <ul>
+              <li>Dedicated transformer accelerator</li>
+              <li>INT4 / INT8 / FP16 support</li>
+              <li>On‑device LLM / vision / speech</li>
+            </ul>
+          </div>
+          <div class="specs-block" data-animate="fade-up" data-animate-delay="100">
+            <h3>Imaging</h3>
+            <ul>
+              <li>Multi‑camera up to 320 MP</li>
+              <li>4K HDR video with AI segmentation</li>
+              <li>Advanced night mode pipelines</li>
+            </ul>
+          </div>
+          <div class="specs-block" data-animate="fade-up" data-animate-delay="200">
+            <h3>Connectivity</h3>
+            <ul>
+              <li>5G sub‑6 &amp; mmWave</li>
+              <li>Wi‑Fi 7 with MLO</li>
+              <li>BT next‑gen audio, GNSS multi‑band</li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="footnote" data-animate="fade-up">
+          *Actual feature support varies by device implementation and OEM
+          design.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark small"></span>
+        <span class="logo-text">Dimensity 9500</span>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html#hero">Overview</a>
+        <a href="specs.html" class="active">Specs</a>
+        <a href="ai-engine.html">AI Platform</a>
+        <a href="contact.html">Partners</a>
+      </nav>
+      <p class="footer-copy">
+        Specifications and features are subject to change without notice.
+      </p>
+    </div>
+  </footer>
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.159.0/build/three.module.js",
+      "three/examples/jsm/": "https://cdn.jsdelivr.net/npm/three@0.159.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="three-setup.js" defer></script>
+  <script src="main.js" defer></script>
+</body>
+
+</html>

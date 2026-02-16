@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dimensity 9500 – Partner with us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://unpkg.com/three@0.161.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.161.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="three-setup.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body class="theme-dark">
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo-mark"></span>
+      <span class="logo-text">Dimensity 9500</span>
+    </div>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html#hero">Overview</a></li>
+        <li><a href="specs.html">Specs</a></li>
+        <li><a href="ai-engine.html">AI Platform</a></li>
+        <li><a href="contact.html" class="active">Partners</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Open navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="section hero-subpage">
+      <div class="section-inner hero-subpage-inner">
+        <div class="hero-subpage-copy" data-animate="fade-up">
+          <p class="eyebrow">Partners &amp; OEMs</p>
+          <h1>Build your next flagship on Dimensity 9500</h1>
+          <p>
+            Share a few details and our team will reach out with documentation,
+            reference designs, and co‑marketing options.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contrast">
+      <div class="section-inner contact-layout">
+        <form class="contact-form" data-animate="fade-up">
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="form-field">
+              <label for="company">Company</label>
+              <input id="company" name="company" type="text" placeholder="Your company" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="email">Work email</label>
+              <input id="email" name="email" type="email" placeholder="you@company.com" required />
+            </div>
+            <div class="form-field">
+              <label for="role">Role</label>
+              <input id="role" name="role" type="text" placeholder="e.g., Product Manager" />
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="focus">Project focus</label>
+            <select id="focus" name="focus">
+              <option>Smartphone</option>
+              <option>Tablet</option>
+              <option>XR / AR / VR</option>
+              <option>Automotive / IVI</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="message">How can we help?</label>
+            <textarea id="message" name="message" rows="5"
+              placeholder="Tell us about your project, timelines, and requirements."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit request</button>
+          <p class="footnote">
+            This is a demo form. Wire it up to your backend or form service to receive submissions.
+          </p>
+        </form>
+
+        <aside class="contact-aside" data-animate="fade-up" data-animate-delay="160">
+          <h2>What you’ll get</h2>
+          <ul class="checklist">
+            <li>Platform and reference design documentation</li>
+            <li>Software and AI toolchain overview</li>
+            <li>Performance and power tuning guidance</li>
+            <li>Co‑marketing and launch collaboration options</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark small"></span>
+        <span class="logo-text">Dimensity 9500</span>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html#hero">Overview</a>
+        <a href="specs.html">Specs</a>
+        <a href="ai-engine.html">AI Platform</a>
+        <a href="contact.html" class="active">Partners</a>
+      </nav>
+      <p class="footer-copy">
+        This site is a demo experience. Replace with your real contact endpoints before production use.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

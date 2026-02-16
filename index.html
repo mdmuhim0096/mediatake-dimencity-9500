@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Dimensity 9500 – 3nm Ultra Flagship 5G Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+    content="Dimensity 9500 – 3nm flagship 5G processor with next-gen CPU, GPU, AI, and connectivity." />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Three.js + GLTFLoader -->
+  <!-- <script src="https://unpkg.com/three@0.159.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.159.0/examples/js/loaders/OBJLoader.js"></script> -->
+
+</head>
+
+<body class="theme-dark">
+  <!-- HEADER / NAV -->
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo-mark"></span>
+      <span class="logo-text">Dimensity 9500</span>
+    </div>
+
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html#hero">Overview</a></li>
+        <li><a href="index.html#architecture">Architecture</a></li>
+        <li><a href="index.html#ai">AI Engine</a></li>
+        <li><a href="index.html#gaming">Gaming</a></li>
+        <li><a href="specs.html">Full Specs</a></li>
+        <li><a href="ai-engine.html">AI Platform</a></li>
+        <li><a href="contact.html">Partners</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" aria-label="Open navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- HERO SECTION -->
+  <main>
+    <section id="hero" class="section hero-section">
+      <div class="hero-inner">
+        <div class="hero-copy" data-animate="fade-up">
+          <p class="chip-tagline">3nm Ultra Flagship 5G Platform</p>
+          <h1>MediaTek Dimensity 9500</h1>
+          <p class="hero-subtitle">
+            A new era of performance, efficiency, and intelligence.
+            Engineered for ultra-premium smartphones and beyond.
+          </p>
+          <div class="hero-cta">
+            <a href="specs.html" class="btn btn-primary">Explore Full Specs</a>
+            <a href="#architecture" class="btn btn-outline">Discover the Architecture</a>
+          </div>
+          <div class="hero-metrics">
+            <div>
+              <span class="metric-label">3nm</span>
+              <span class="metric-desc">Leading-edge process</span>
+            </div>
+            <div>
+              <span class="metric-label">5G+</span>
+              <span class="metric-desc">Sub-6 GHz & mmWave</span>
+            </div>
+            <div>
+              <span class="metric-label">AI Gen 3</span>
+              <span class="metric-desc">On-device transformer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-3d" data-animate="fade-left">
+          <div id="chipCanvas"></div>
+          <div class="hero-scroll-hint">
+            Scroll to explore the silicon story
+            <span class="scroll-arrow"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARCHITECTURE OVERVIEW -->
+    <section id="architecture" class="section section-contrast">
+      <div class="section-inner">
+        <header class="section-header" data-animate="fade-up">
+          <p class="eyebrow">Architecture Overview</p>
+          <h2>Balanced brute force &amp; efficiency</h2>
+          <p class="section-lead">
+            Dimensity 9500 combines next‑gen CPU, GPU, and AI accelerators on a
+            3nm node, tuned for sustained real‑world workloads.
+          </p>
+        </header>
+
+        <div class="feature-grid">
+          <article class="feature-card" data-animate="fade-up">
+            <h3>CPU Cluster</h3>
+            <p>
+              Custom 1+5+2 core configuration with a prime ultra‑large core up to
+              3.5 GHz, backed by next‑gen efficiency cores for all‑day power.
+            </p>
+            <ul>
+              <li>Prime Cortex-class core @ 3.5 GHz</li>
+              <li>Performance cores with large L2 cache</li>
+              <li>Efficiency cores for background tasks</li>
+            </ul>
+          </article>
+
+          <article class="feature-card" data-animate="fade-up" data-animate-delay="80">
+            <h3>GPU &amp; Ray Tracing</h3>
+            <p>
+              New architecture GPU with hardware‑accelerated global illumination
+              and variable rate shading for console‑grade visuals.
+            </p>
+            <ul>
+              <li>Next-gen GPU with advanced pipeline</li>
+              <li>Real-time ray tracing</li>
+              <li>120 Hz &amp; beyond gaming ready</li>
+            </ul>
+          </article>
+
+          <article class="feature-card" data-animate="fade-up" data-animate-delay="160">
+            <h3>Memory &amp; Bandwidth</h3>
+            <p>
+              Multi‑channel LPDDR5X & PCIe storage controllers push the limits
+              of mobile throughput.
+            </p>
+            <ul>
+              <li>LPDDR5X up to 9600 Mbps</li>
+              <li>UFS 4.0 storage</li>
+              <li>Smart prefetch &amp; compression</li>
+            </ul>
+          </article>
+
+          <article class="feature-card" data-animate="fade-up" data-animate-delay="240">
+            <h3>Thermal Intelligence</h3>
+            <p>
+              Adaptive power orchestration across CPU, GPU, and NPU maintains
+              performance under sustained loads.
+            </p>
+            <ul>
+              <li>Per‑core power tuning</li>
+              <li>Frame‑aware GPU scheduling</li>
+              <li>On‑die thermal telemetry</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3D SCROLL STORY SECTION -->
+    <section id="chip-story" class="section section-dark">
+      <div class="section-inner section-flex">
+        <div class="story-text">
+          <header class="section-header" data-animate="fade-up">
+            <p class="eyebrow">Interactive silicon story</p>
+            <h2>Scroll to orbit the Dimensity 9500</h2>
+            <p class="section-lead">
+              The 3D chip on the right responds to your scroll, revealing each
+              layer of innovation. Tilt, orbit, and zoom simply by exploring
+              the page.
+            </p>
+          </header>
+
+          <ol class="story-steps">
+            <li data-animate="fade-right">
+              <span class="step-label">01 — Surface</span>
+              <p>
+                A precision‑etched top layer showcases the Dimensity 9500
+                identity, representing the fusion of power and efficiency.
+              </p>
+            </li>
+            <li data-animate="fade-right" data-animate-delay="120">
+              <span class="step-label">02 — Compute Layers</span>
+              <p>
+                As you scroll, the chip rotates to highlight CPU and GPU
+                domains—built for next‑gen apps, games, and AI workloads.
+              </p>
+            </li>
+            <li data-animate="fade-right" data-animate-delay="240">
+              <span class="step-label">03 — Signal &amp; I/O</span>
+              <p>
+                Flip underneath the package to appreciate the dense I/O and
+                interconnect fabric powering 5G, Wi‑Fi 7, and beyond.
+              </p>
+            </li>
+          </ol>
+        </div>
+
+        <div class="story-visual">
+          <div class="chip-info-pill" data-animate="fade-up">
+            <span class="pill-title">Real-time Motion</span>
+            <span class="pill-body">Scroll = orbit, speed = intensity</span>
+          </div>
+          <!-- Same canvas is reused; this column just frames it -->
+          <div class="chip-canvas-frame">
+            <!-- Canvas is already in hero; we visually treat as continuous space -->
+            <div class="chip-canvas-placeholder">
+              <span>Continue scrolling to control the 3D chip</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI ENGINE SECTION -->
+    <section id="ai" class="section">
+      <div class="section-inner">
+        <header class="section-header" data-animate="fade-up">
+          <p class="eyebrow">Dimensity AI Engine Gen 3</p>
+          <h2>On‑device generative intelligence</h2>
+          <p class="section-lead">
+            Designed for large language models, image generation, and next‑wave
+            AI assistants—without sending every token to the cloud.
+          </p>
+        </header>
+
+        <div class="ai-layout">
+          <div class="ai-panel" data-animate="fade-up">
+            <h3>Transformer‑first NPU</h3>
+            <p>
+              A dedicated transformer accelerator delivers massive parallelism
+              for sequence models with low latency and power.
+            </p>
+            <ul>
+              <li>Optimized for 7B+ parameter models on‑device*</li>
+              <li>INT4 / INT8 / FP16 mixed precision</li>
+              <li>Context window extension hardware assist</li>
+            </ul>
+            <p class="footnote">*Exact capability depends on device design.</p>
+          </div>
+
+          <div class="ai-panel" data-animate="fade-up" data-animate-delay="120">
+            <h3>Camera &amp; Vision</h3>
+            <p>
+              AI‑accelerated ISP pipelines unlock live segmentation, cinematic
+              depth, and multi‑frame night vision.
+            </p>
+            <ul>
+              <li>4K HDR with real‑time semantic segmentation</li>
+              <li>AI super‑resolution &amp; denoising</li>
+              <li>Multi‑camera fusion for ultra‑wide to telephoto</li>
+            </ul>
+          </div>
+
+          <div class="ai-panel" data-animate="fade-up" data-animate-delay="240">
+            <h3>On‑device Assistants</h3>
+            <p>
+              Run private voice and text assistants with always‑on wake words
+              and offline command recognition.
+            </p>
+            <ul>
+              <li>On‑device speech recognition</li>
+              <li>Context‑aware suggestions</li>
+              <li>Low‑latency multimodal queries</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="ai-banner" data-animate="fade-up">
+          <p>
+            Explore the full AI platform and model optimization tools in
+            <a href="ai-engine.html">Dimensity 9500 AI Studio &rarr;</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAMING SECTION -->
+    <section id="gaming" class="section section-contrast">
+      <div class="section-inner">
+        <header class="section-header" data-animate="fade-up">
+          <p class="eyebrow">HyperReal Gaming</p>
+          <h2>Console‑class graphics in your pocket</h2>
+          <p class="section-lead">
+            A next‑gen graphics pipeline with hardware ray tracing, VRS, and
+            adaptive sync delivers ultra‑smooth, ultra‑responsive gameplay.
+          </p>
+        </header>
+
+        <div class="metrics-row">
+          <div class="metric-card" data-animate="fade-up">
+            <span class="metric-number">+30%</span>
+            <span class="metric-caption">GPU performance vs. previous gen*</span>
+          </div>
+          <div class="metric-card" data-animate="fade-up" data-animate-delay="100">
+            <span class="metric-number">-20%</span>
+            <span class="metric-caption">Gaming power at same FPS</span>
+          </div>
+          <div class="metric-card" data-animate="fade-up" data-animate-delay="200">
+            <span class="metric-number">240 Hz</span>
+            <span class="metric-caption">Touch response pipeline</span>
+          </div>
+        </div>
+
+        <div class="gaming-grid">
+          <div class="gaming-card" data-animate="fade-right">
+            <h3>HyperEngine XR</h3>
+            <p>
+              Adaptive frame pacing, thermal‑aware scheduling, and resource
+              prediction keep frame times flat, even in extended sessions.
+            </p>
+          </div>
+          <div class="gaming-card" data-animate="fade-left">
+            <h3>Ray‑traced Lighting</h3>
+            <p>
+              Hardware acceleration for reflections and global illumination
+              enhances realism with minimal performance cost.
+            </p>
+          </div>
+          <div class="gaming-card" data-animate="fade-right" data-animate-delay="120">
+            <h3>Game‑grade Connectivity</h3>
+            <p>
+              5G dual‑SIM dual‑standby, Wi‑Fi 7, and end‑to‑end QoS make sure
+              your network never holds you back.
+            </p>
+          </div>
+          <div class="gaming-card" data-animate="fade-left" data-animate-delay="120">
+            <h3>Haptics &amp; Audio</h3>
+            <p>
+              Low‑latency audio pipelines and actuator‑aware haptics pair with
+              visuals for full immersion.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONNECTIVITY + BATTERY -->
+    <section id="connectivity" class="section section-dark">
+      <div class="section-inner section-flex">
+        <div class="stacked" data-animate="fade-up">
+          <p class="eyebrow">Modem &amp; Connectivity</p>
+          <h2>5G+, Wi‑Fi 7, and satellite‑ready</h2>
+          <p class="section-lead">
+            A holistic radio system, from mmWave beamforming to Wi‑Fi 7 MLO,
+            ensures high throughput and robustness.
+          </p>
+          <ul class="checklist">
+            <li>Sub‑6 GHz &amp; mmWave 5G</li>
+            <li>Carrier aggregation with massive MIMO</li>
+            <li>Wi‑Fi 7 with multi‑link operation</li>
+            <li>Next‑gen Bluetooth with low‑latency audio</li>
+          </ul>
+        </div>
+
+        <div class="stacked" data-animate="fade-up" data-animate-delay="160">
+          <p class="eyebrow">Battery &amp; Efficiency</p>
+          <h2>All‑day power with headroom</h2>
+          <p>
+            Intelligent DVFS and context‑aware power management distribute
+            energy where it matters most.
+          </p>
+          <ul class="checklist">
+            <li>Per‑app performance profiles</li>
+            <li>Adaptive refresh‑rate orchestration</li>
+            <li>On‑chip power telemetry</li>
+            <li>Co‑optimization with OEM designs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE / ROADMAP STYLE SECTION -->
+    <section id="timeline" class="section">
+
+      <div class="section-inner">
+        <header class="section-header" data-animate="fade-up">
+          <p class="eyebrow">Built for the future</p>
+          <h2>A roadmap‑ready platform</h2>
+          <p class="section-lead">
+            Dimensity 9500 is designed as a foundation for multiple device
+            generations, with forward‑compatible capabilities.
+          </p>
+        </header>
+
+        <div class="timeline">
+          <div class="timeline-item" data-animate="fade-right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-label">Launch Devices</span>
+              <h3>Ultra‑premium smartphones</h3>
+              <p>
+                Flagship devices with cutting‑edge displays, cameras, and
+                industrial design debut the Dimensity 9500 ecosystem.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-animate="fade-left">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-label">Expansion</span>
+              <h3>Tablets, clamshells, and XR</h3>
+              <p>
+                High‑performance form factors harness the platform’s efficiency
+                for extended reality and productivity.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-animate="fade-right">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-label">Ecosystem</span>
+              <h3>Developers &amp; AI partners</h3>
+              <p>
+                Tools, SDKs, and model hubs enable partners to bring
+                breakthrough AI and gaming experiences to life.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / FOOTER PREVIEW -->
+    <section id="cta" class="section section-contrast">
+      <div class="section-inner cta-inner" data-animate="fade-up">
+        <div>
+          <h2>Ready to build on Dimensity 9500?</h2>
+          <p>
+            Connect with our partner team for reference designs, software
+            stacks, and go‑to‑market support.
+          </p>
+        </div>
+        <div>
+          <a href="contact.html" class="btn btn-primary">Partner with us</a>
+          <a href="specs.html" class="btn btn-outline">View full technical brief</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark small"></span>
+        <span class="logo-text">Dimensity 9500</span>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html#hero">Overview</a>
+        <a href="specs.html">Specs</a>
+        <a href="ai-engine.html">AI Platform</a>
+        <a href="contact.html">Partners</a>
+      </nav>
+      <p class="footer-copy">
+        All product names are used for identification purposes only. Final
+        capabilities depend on implementation by device manufacturers.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Site scripts -->
+  <script type="importmap" >
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.159.0/build/three.module.js",
+      "three/examples/jsm/": "https://cdn.jsdelivr.net/npm/three@0.159.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="three-setup.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
